@@ -50,6 +50,18 @@ class _ChatbotScreenState extends State<ChatbotScreen> {
       _isLoading = true;
     });
 
+    // The AI service is turned off for now, so reply with a short message.
+    await Future.delayed(const Duration(milliseconds: 600));
+    if (!mounted) return;
+    setState(() {
+      _messages.add({
+        'role': 'bot',
+        'text':
+            'Sorry, the AI helper is offline right now. Please try again later.',
+      });
+      _isLoading = false;
+    });
+
     _scrollToBottom();
 
     // try {
@@ -94,8 +106,6 @@ class _ChatbotScreenState extends State<ChatbotScreen> {
     //     _isLoading = false;
     //   });
     // }
-
-    _scrollToBottom();
   }
 
   void _scrollToBottom() {
