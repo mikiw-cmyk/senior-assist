@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "483890245461",
+    "project_id": "seniorassist-70c27",
+    "storage_bucket": "seniorassist-70c27.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:483890245461:android:1629ea1873311790edc9dc",
+        "android_client_info": {
+          "package_name": "com.example.senior_assist"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCQSIsouZNK_tuFvGchHSlbhPyGB8lpiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
